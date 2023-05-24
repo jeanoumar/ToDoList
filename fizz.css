@@ -1,0 +1,120 @@
+body{
+    
+    justify-content: center;
+    background-color: transparent;
+    background-position: top left;
+    background-image: url("./lockheed.jpeg") !important;
+    min-height: 300vh;
+    max-width: 400px;
+  
+}
+
+footer {
+    text-align:center;
+    padding: 5px;
+    background-color: #abbaba;
+    color: #000;
+}
+button {
+    display: inline-block;
+    background-color: #172432;
+    border: none;
+    color: #ddd;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+.input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+    border: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form{
+    position: absolute;
+    top: 30%;
+    box-shadow: 0 4px 8px rgba(122, 120, 120, 0.3);
+    width: 400px;
+    border-radius: 10px;
+}
+.input::placeholder{
+    color: rgb(211, 211, 211);
+}
+.list{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(209, 203, 203);
+}
+.list li{
+    list-style-type: none;
+    padding: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-top: line ;
+    border-color: rgb(177, 42, 42);
+    position: relative;
+}
+.list li.checkedBoxe .square{
+    color: darkgray;
+}
+
+.list li .trash{
+    color: rgb(236, 227, 227);
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.list li .square{
+    color: rgb(16, 17, 16);
+    position: absolute;
+    right: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+#clock{
+    font-family: Digital-7, 'sans-serif';
+    font-size:30px;
+    text-shadow:0px 0px 1px #fff;
+    color:#fff;
+}
+#clock span {
+    color: rgba(200, 200, 200, 0.8);
+    text-shadow:0px 0px 1px #333;
+    font-size:25px;
+    position:relative;
+    top:-5px;
+    left:10px;
+}
+#date {
+    letter-spacing:3px;
+    font-size:14px;
+    font-family:arial,sans-serif;
+    color:#fff;
+}
+.list li.checkedBox {
+    color: darkgray;
+    text-decoration: line-through;
+}
+@font-face{
+    font-family: 'Digital-7';
+    src:  url('fonts/digital-7.ttf') format('woff2'),   b ,g,mdrx
+    url('digital-7.woff') format('woff');
+}
+.clockdate-wrapper {
+    background: #141E30; 
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  
+    background: linear-gradient(to right, #243B55, #141E30); 
+    padding:25px;
+    max-width:350px;
+    width:100%;
+    text-align:center;
+    border-radius:5px;
+    margin:0 auto;
+  
+}
+
+
